@@ -19,7 +19,15 @@ Enable only the plugins included in the client's package:
 
 ## 3) Configure credentials (if required)
 
-For any MCP-backed plugin, provide the client's service credentials and confirm connectivity.
+For MCP-backed `hi-web-core`, set:
+
+- `HIAI_MCP_API_KEY=<client-api-key>`
+- MCP server: `hiai-web-core-mcp`
+- Endpoint: `https://kindling-dev.hiai.studio/mcp/883cff48-8f22-43ef-ad12-04db761f4ac1`
+
+Then confirm connectivity in Claude by running:
+
+`/plugin validate .`
 
 ## 4) Verify installation
 

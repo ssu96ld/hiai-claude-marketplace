@@ -42,3 +42,17 @@ Current live plugin:
 ## Package MCP-backed services
 
 Use `templates/mcp-service/` for each MCP-backed service. Keep each service isolated so clients can enable or remove it without affecting unrelated services.
+
+## Current MCP configuration
+
+`hi-web-core` includes one remote MCP server:
+
+- Name: `hiai-web-core-mcp`
+- URL: `https://kindling-dev.hiai.studio/mcp/883cff48-8f22-43ef-ad12-04db761f4ac1`
+- API key env var: `HIAI_MCP_API_KEY`
+
+## Validate locally
+
+From marketplace root, run:
+
+- `/plugin validate .`
