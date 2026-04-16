@@ -15,8 +15,9 @@ Current live plugin:
 
 ## Repository structure
 
-- `marketplace.json` - catalog index that lists installable plugins
-- `plugins/hi-web-core/` - shared core plugin currently in catalog
+- `.claude-plugin/marketplace.json` - marketplace manifest (Anthropic format)
+- `plugins/hi-web-core/.claude-plugin/plugin.json` - plugin manifest
+- `plugins/hi-web-core/skills/hiai-world/SKILL.md` - sample skill
 - `templates/service-plugin/` - copy this to create a new client-facing service plugin
 - `templates/mcp-service/` - minimal MCP service packaging template
 - `docs/client-onboarding-template.md` - reusable setup guide for each client
@@ -25,16 +26,18 @@ Current live plugin:
 ## Add this marketplace to Claude
 
 1. Host this repo publicly (for example on GitHub).
-2. Copy the public URL to `marketplace.json`.
-3. In Claude settings, add a marketplace source using that URL.
+2. Ensure the repo contains `.claude-plugin/marketplace.json` (this repo does).
+3. Add the marketplace source:
+   - Claude chat command: `/plugin marketplace add <github-owner>/<repo>`
+   - Or use Claude settings UI marketplace source flow.
 4. Install plugin `hi-web-core` (and later any service plugins you add).
 
 ## Add a new service plugin
 
 1. Copy `templates/service-plugin/` to `plugins/<service-id>/`.
-2. Update the new `plugins/<service-id>/plugin.json`.
+2. Add `plugins/<service-id>/.claude-plugin/plugin.json`.
 3. Create or update skills under `plugins/<service-id>/skills/`.
-4. Register the plugin in `marketplace.json`.
+4. Register the plugin in `.claude-plugin/marketplace.json` with `name` and `source`.
 
 ## Package MCP-backed services
 

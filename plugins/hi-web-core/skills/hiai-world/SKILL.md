@@ -1,3 +1,7 @@
+---
+description: Return a short hello from hiai-world
+---
+
 # hiai-world
 
 Simple sample skill for the `hi-web-core` plugin.

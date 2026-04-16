@@ -1,0 +1,17 @@
+{
+  "name": "hiai-claude-marketplace",
+  "owner": {
+    "name": "hiai"
+  },
+  "metadata": {
+    "description": "Agency marketplace for hiai plugins.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hi-web-core",
+      "source": "./plugins/hi-web-core",
+      "description": "Core web helpers for hiai."
+    }
+  ]
+}

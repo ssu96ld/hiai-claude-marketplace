@@ -1,3 +1,7 @@
+---
+description: Replace with a short skill description
+---
+
 # replace-skill-id
 
 Describe the skill's purpose in one sentence.

@@ -12,7 +12,7 @@ Use this model to productize agency services into installable Claude capabilitie
 
 ## Recommended plugin layout
 
-`plugins/<service-id>/plugin.json`
+`plugins/<service-id>/.claude-plugin/plugin.json`
 
 `plugins/<service-id>/skills/<skill-id>/SKILL.md`
 
