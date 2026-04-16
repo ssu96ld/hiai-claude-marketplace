@@ -5,10 +5,7 @@
   "mcpServers": {
     "hiai-web-core-mcp": {
       "type": "url",
-      "url": "https://kindling-dev.hiai.studio/mcp/883cff48-8f22-43ef-ad12-04db761f4ac1",
-      "headers": {
-        "Authorization": "Bearer ${HIAI_MCP_API_KEY}"
-      }
+      "url": "https://kindling-dev.hiai.studio/mcp/883cff48-8f22-43ef-ad12-04db761f4ac1"
     }
   }
 }
