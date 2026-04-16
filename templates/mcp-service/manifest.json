@@ -1,0 +1,12 @@
+{
+  "id": "replace-mcp-service-id",
+  "name": "replace-mcp-service-name",
+  "version": "0.1.0",
+  "description": "Minimal MCP service manifest template.",
+  "auth": {
+    "type": "replace-auth-type"
+  },
+  "scopes": [
+    "replace.scope.read"
+  ]
+}

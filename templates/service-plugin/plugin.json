@@ -1,0 +1,12 @@
+{
+  "id": "replace-service-id",
+  "name": "replace-service-name",
+  "version": "0.1.0",
+  "description": "Replace with a short service description.",
+  "skills": [
+    {
+      "id": "replace-skill-id",
+      "path": "skills/replace-skill-id/SKILL.md"
+    }
+  ]
+}

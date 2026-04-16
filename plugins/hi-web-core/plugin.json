@@ -1,0 +1,12 @@
+{
+  "id": "hi-web-core",
+  "name": "hi-web-core",
+  "version": "0.1.0",
+  "description": "Core web helpers for hiai.",
+  "skills": [
+    {
+      "id": "hiai-world",
+      "path": "skills/hiai-world/SKILL.md"
+    }
+  ]
+}

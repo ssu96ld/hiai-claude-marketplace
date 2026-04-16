@@ -1,0 +1,10 @@
+{
+  "name": "hiai-claude-marketplace",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "id": "hi-web-core",
+      "path": "plugins/hi-web-core/plugin.json"
+    }
+  ]
+}
