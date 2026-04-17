@@ -9,8 +9,8 @@
   },
   "plugins": [
     {
-      "name": "hi-web-core",
-      "source": "./plugins/hi-web-core",
+      "name": "hiai-web-core",
+      "source": "./plugins/hiai-web-core",
       "description": "Core web helpers for hiai."
     }
   ]

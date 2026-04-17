@@ -1,4 +1,5 @@
 ---
+name: ask-hiai
 description: Route "ask hiai" requests to MCP tool ask_hiai
 ---
 

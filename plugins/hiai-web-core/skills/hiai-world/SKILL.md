@@ -1,4 +1,5 @@
 ---
+name: hiai-world
 description: Return a short hello from hiai-world
 ---
 

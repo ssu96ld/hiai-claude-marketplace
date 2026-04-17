@@ -1,7 +1,7 @@
 {
-  "name": "hi-web-core",
+  "name": "hiai-web-core",
   "description": "Core web helpers for hiai.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "mcpServers": {
     "hiai-web-core-mcp": {
       "type": "url",
