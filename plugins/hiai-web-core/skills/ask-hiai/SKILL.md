@@ -6,7 +6,6 @@ argument-hint: "[question]"
 disable-model-invocation: false
 user-invocable: true
 allowed-tools: mcp__hiai-web-core-mcp__ask_hiai
-model: sonnet
 effort: medium
 context: fork
 agent: general-purpose

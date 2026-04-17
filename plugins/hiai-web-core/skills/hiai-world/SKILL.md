@@ -6,7 +6,6 @@ argument-hint: "[optional-name]"
 disable-model-invocation: false
 user-invocable: true
 allowed-tools: Read
-model: sonnet
 effort: low
 context: fork
 agent: general-purpose
