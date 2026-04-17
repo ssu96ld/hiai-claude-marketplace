@@ -1,11 +1,8 @@
 {
   "name": "hiai-web-core",
+  "version": "0.1.3",
   "description": "Core web helpers for hiai.",
-  "version": "0.1.2",
-  "mcpServers": {
-    "hiai-web-core-mcp": {
-      "type": "url",
-      "url": "https://kindling-dev.hiai.studio/mcp/883cff48-8f22-43ef-ad12-04db761f4ac1"
-    }
+  "author": {
+    "name": "hiai"
   }
 }

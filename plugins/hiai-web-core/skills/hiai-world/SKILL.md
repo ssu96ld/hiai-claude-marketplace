@@ -1,35 +1,28 @@
 ---
 name: hiai-world
-description: Return a short hello from hiai-world
-when_to_use: Use when the user asks for a greeting or hello-world style response.
-argument-hint: "[optional-name]"
-disable-model-invocation: false
-user-invocable: true
-allowed-tools: Read
-effort: low
-context: fork
-agent: general-purpose
-hooks: {}
-paths:
-  - "**/*"
-shell: bash
+description: >
+  This skill should be used when the user asks for a simple greeting or
+  "hello world" style response from hiai — for example "say hi from hiai",
+  "hiai world", "hello hiai", or when testing that the hiai-web-core plugin
+  is loaded correctly. Returns a short confirmation greeting.
+metadata:
+  version: "0.1.0"
 ---
 
 # hiai-world
 
-Simple sample skill for the `hi-web-core` plugin.
+Sample sanity-check skill for the `hiai-web-core` plugin.
 
-## Purpose
+## When to use
 
-Use this skill when the user wants a short greeting or a quick "hello world" style response.
+Trigger when the user wants a short greeting, a "hello world" style response, or wants to verify the plugin is working.
 
-## Behavior
+## Procedure
 
-1. Respond with: `Hello 👋 from hiai-world.`
-2. Keep the response concise.
+1. Respond with exactly: `Hello 👋 from hiai-world.`
+2. Keep the response to a single line — no extra commentary.
 
 ## Example
 
-User: "Say hi."
-
-Assistant: "Hello from hiai-world."
+User: "Say hi from hiai."
+Assistant: "Hello 👋 from hiai-world."
