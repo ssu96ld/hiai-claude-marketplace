@@ -1,6 +1,19 @@
 ---
 name: ask-hiai
 description: Route "ask hiai" requests to MCP tool ask_hiai
+when_to_use: Use when the user asks to "ask hiai" or wants a question routed to hiai.
+argument-hint: "[question]"
+disable-model-invocation: false
+user-invocable: true
+allowed-tools: mcp__hiai-web-core-mcp__ask_hiai
+model: sonnet
+effort: medium
+context: fork
+agent: general-purpose
+hooks: {}
+paths:
+  - "**/*"
+shell: bash
 ---
 
 # ask-hiai

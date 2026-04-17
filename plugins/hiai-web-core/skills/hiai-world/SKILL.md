@@ -1,6 +1,19 @@
 ---
 name: hiai-world
 description: Return a short hello from hiai-world
+when_to_use: Use when the user asks for a greeting or hello-world style response.
+argument-hint: "[optional-name]"
+disable-model-invocation: false
+user-invocable: true
+allowed-tools: Read
+model: sonnet
+effort: low
+context: fork
+agent: general-purpose
+hooks: {}
+paths:
+  - "**/*"
+shell: bash
 ---
 
 # hiai-world
